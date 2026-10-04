@@ -1,5 +1,5 @@
-# uber-go/zap's .github/workflows/go.yml: build (go: 1.27.x), for the Superaction scoreboard.
-name: Superaction (GitHub)
+# uber-go/zap's .github/workflows/go.yml: build (go: 1.27.x), for the SuperCI scoreboard.
+name: SuperCI (GitHub)
 
 on:
   workflow_dispatch: {}

@@ -1,5 +1,5 @@
-# AWS experiment: one spot machine per job, no fan-out. uber-go/zap's .github/workflows/go.yml: build (go: 1.27.x), for the Superaction scoreboard.
-name: Superaction (AWS)
+# uber-go/zap's .github/workflows/go.yml: build (go: 1.27.x), for the SuperCI scoreboard.
+name: SuperCI
 
 on:
   workflow_dispatch: {}
@@ -9,8 +9,8 @@ permissions:
 
 jobs:
   test:
-    name: test / superaction-aws
-    runs-on: superaction-aws
+    name: test / superci
+    runs-on: superci
     timeout-minutes: 30
     steps:
     - name: Checkout code
